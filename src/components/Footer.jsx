@@ -59,6 +59,11 @@ function Footer() {
                   Privacy Policy
                 </Link>
               </li>
+              <li>
+                <Link to="/support" className="text-gray-400 hover:text-white transition-colors">
+                  Support
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
