@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/CloderWebsite">
       <div className="flex flex-col min-h-screen">
         <Header />
         <main className="flex-grow">
