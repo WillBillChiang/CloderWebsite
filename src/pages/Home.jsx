@@ -1,5 +1,8 @@
 import { motion } from 'framer-motion'
 import { useState } from 'react'
+import SEO from '../components/SEO'
+import StructuredData from '../components/StructuredData'
+import FAQ from '../components/FAQ'
 
 function Home() {
   const [hoveredFeature, setHoveredFeature] = useState(null)
@@ -48,9 +51,9 @@ function Home() {
     },
     {
       step: 2,
-      title: 'Set Your Availability',
-      description: 'Input the times you\'re free for in-person meetups—we use this to find your perfect matches.',
-      icon: '📅',
+      title: 'Search for Groups',
+      description: 'Browse groups based on your interests and select your availability to find meetups that fit your schedule.',
+      icon: '🔍',
       color: 'from-purple-400 to-purple-600',
     },
     {
@@ -70,8 +73,16 @@ function Home() {
   ]
 
   return (
-    <div className="overflow-hidden">
-      {/* Hero Section */}
+    <>
+      <SEO
+        title="Make New Friends | Cloder - Connect in Real Life"
+        description="Make new friends who share your interests and are available when you are. Cloder helps you find friends nearby and connect in real life. Set your availability, get matched by interests and time, and meet up in person for authentic friendships."
+        keywords="make new friends, find friends nearby, meet new people, connect in real life, real life connections, find local friends, friendship app, meet people near me, make friends app, find friends with similar interests"
+        canonical="https://cloderconnect.com/"
+      />
+      <StructuredData type="website" />
+      <div className="overflow-hidden">
+        {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-50 via-white to-accent-50 pt-20">
         {/* Animated background elements */}
         <div className="absolute inset-0 overflow-hidden">
@@ -121,11 +132,11 @@ function Home() {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
-                Connect in
-                <span className="text-gradient"> Real Life</span>
+                Make New Friends &
+                <span className="text-gradient"> Connect in Real Life</span>
               </h1>
               <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
-                Share your availability, get matched with people who are free at the same time, and meet up in person. No more endless texting—just real connections.
+                Make new friends who share your interests and are free when you are. Share your availability, get matched with people nearby, and meet up in person. No more endless texting—just real connections.
               </p>
             </motion.div>
 
@@ -361,7 +372,11 @@ function Home() {
           </motion.div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQ />
     </div>
+    </>
   )
 }
 

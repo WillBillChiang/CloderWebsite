@@ -1,0 +1,13 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Crawl-delay for well-behaved bots
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://cloderconnect.com/sitemap.xml
+
+# Block specific paths if needed in future
+# Disallow: /admin/
+# Disallow: /api/

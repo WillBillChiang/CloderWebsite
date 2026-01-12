@@ -1,9 +1,17 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
+import SEO from '../components/SEO'
 
 function Support() {
   return (
-    <div className="min-h-screen bg-gray-50 pt-24 pb-16">
+    <>
+      <SEO
+        title="Support & Help | Cloder"
+        description="Get help with Cloder. Contact our support team for assistance with making new friends and connecting in real life."
+        canonical="https://cloderconnect.com/support"
+        keywords="cloder support, cloder help, contact cloder"
+      />
+      <div className="min-h-screen bg-gray-50 pt-24 pb-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -113,6 +121,7 @@ function Support() {
         </motion.div>
       </div>
     </div>
+    </>
   )
 }
 

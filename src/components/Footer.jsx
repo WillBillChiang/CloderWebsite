@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import CloderIcon from '../assets/CloderIconSmall.png'
 
 function Footer() {
   return (
@@ -8,9 +9,7 @@ function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-primary rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">C</span>
-              </div>
+              <img src={CloderIcon} alt="Cloder" className="w-10 h-10" />
               <span className="text-2xl font-bold">Cloder</span>
             </div>
             <p className="text-gray-400 max-w-md">

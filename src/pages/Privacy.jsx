@@ -1,9 +1,17 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
+import SEO from '../components/SEO'
 
 function Privacy() {
   return (
-    <div className="min-h-screen bg-gray-50 pt-24 pb-16">
+    <>
+      <SEO
+        title="Privacy Policy | Cloder"
+        description="Learn how Cloder protects your privacy when you make new friends. Read our comprehensive privacy policy."
+        canonical="https://cloderconnect.com/privacy"
+        keywords="cloder privacy, privacy policy, data protection"
+      />
+      <div className="min-h-screen bg-gray-50 pt-24 pb-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -128,6 +136,7 @@ function Privacy() {
         </motion.div>
       </div>
     </div>
+    </>
   )
 }
 
