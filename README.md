@@ -1,94 +1,44 @@
 # Cloder - Connect in Real Life
 
-A modern, interactive landing page for Cloder, an app designed to help people make meaningful in-person connections based on shared interests and availability.
+## What is Cloder?
 
-## Features
+Cloder is an app designed to help you make meaningful, authentic friendships through **in-person meetups**. We're bringing back the joy of face-to-face connections in a world that's gone digital-only.
 
-- 🎨 Modern, friendly UI with gradient accents
-- ✨ Interactive animations using Framer Motion
-- 📱 Fully responsive design
-- 🚀 Built with React + Vite
-- 💅 Styled with Tailwind CSS
-- 🔗 Client-side routing with React Router
+## The Problem
 
-## Pages
+Tired of endless texting that never leads anywhere? Frustrated by digital-only friendships? You're not alone. Modern social apps have made it easier to "connect" online, but harder to actually meet people in real life.
 
-- **Home**: Landing page with hero section, features, user flow visualization, and mission statement
-- **Terms of Service**: Complete terms and conditions
-- **Privacy Policy**: Privacy policy and data handling information
+## The Solution
 
-## Tech Stack
+Cloder takes a different approach:
 
-- React 18
-- Vite
-- Tailwind CSS v3
-- React Router DOM
-- Framer Motion (for animations)
+### 1. **Share Your Availability**
+Tell us when you're free for in-person meetups. No more back-and-forth scheduling—just set your availability once.
 
-## Getting Started
+### 2. **Get Matched by Time & Interests**
+Our smart matching system connects you with people who:
+- Share your interests and passions
+- Are available at the same times as you
+- Actually want to meet in person
 
-### Prerequisites
+### 3. **Meet Face-to-Face**
+Skip the endless texting and meet in real life. That's where real friendships begin.
 
-- Node.js (v14 or higher)
-- npm or yarn
+## Core Features
 
-### Installation
+- **🎯 Availability-Based Matching**: Get matched with people who are free when you are
+- **👤 Authentic Profiles**: Share your genuine interests and find others who appreciate you
+- **🤝 Real Connections**: Designed to get you meeting people in person, not stuck in chat
+- **🔒 Safe & Secure**: Meet in public places with built-in safety tools and content moderation
+- **🌟 Community Driven**: Join people who value face-to-face connections
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd CloderWebsite
-```
+## How It's Different
 
-2. Install dependencies:
-```bash
-npm install
-```
+Unlike other apps that keep you scrolling and texting forever, Cloder is built specifically to get you **offline and meeting people**. We match based on both interests AND availability, so you can actually make plans that work.
 
-3. Start the development server:
-```bash
-npm run dev
-```
+## Download
 
-4. Open your browser and navigate to `http://localhost:5173`
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-The built files will be in the `dist` directory.
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
-## Project Structure
-
-```
-CloderWebsite/
-├── src/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   └── Footer.jsx
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── Terms.jsx
-│   │   └── Privacy.jsx
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.css
-│   └── main.jsx
-├── public/
-├── index.html
-├── tailwind.config.js
-├── postcss.config.js
-├── vite.config.js
-└── package.json
-```
+[Download Cloder on iOS](https://apps.apple.com/us/app/cloder/id6755250994)
 
 ## Contact
 
