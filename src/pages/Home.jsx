@@ -14,12 +14,12 @@ function Home() {
     {
       icon: '🎯',
       title: 'Smart Matching',
-      description: 'Our algorithm connects you with people who share your interests and availability for real meetups.',
+      description: 'Get matched with people who share your interests and are available at the same time as you.',
     },
     {
       icon: '📅',
-      title: 'Flexible Scheduling',
-      description: 'Set your availability and let us find the perfect time for you and your matches to meet.',
+      title: 'Availability-Based Matching',
+      description: 'Input when you\'re free, and we\'ll connect you with others available at the same time for in-person meetups.',
     },
     {
       icon: '🤝',
@@ -48,15 +48,15 @@ function Home() {
     },
     {
       step: 2,
-      title: 'Add Availability',
-      description: 'Share when you\'re free to meet new people and make connections.',
+      title: 'Set Your Availability',
+      description: 'Input the times you\'re free for in-person meetups—we use this to find your perfect matches.',
       icon: '📅',
       color: 'from-purple-400 to-purple-600',
     },
     {
       step: 3,
-      title: 'Get Matched',
-      description: 'We\'ll connect you with people who share your interests and availability.',
+      title: 'Get Matched by Time',
+      description: 'We match you with people who share your interests AND are available at the same times as you.',
       icon: '🎯',
       color: 'from-pink-400 to-pink-600',
     },
@@ -125,7 +125,7 @@ function Home() {
                 <span className="text-gradient"> Real Life</span>
               </h1>
               <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
-                Tired of digital-only friendships? Cloder helps you find people nearby who share your interests and actually want to meet in person.
+                Share your availability, get matched with people who are free at the same time, and meet up in person. No more endless texting—just real connections.
               </p>
             </motion.div>
 
@@ -135,12 +135,14 @@ function Home() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="flex flex-col sm:flex-row gap-4 justify-center items-center"
             >
-              <button className="px-8 py-4 bg-gradient-primary text-white rounded-full font-semibold text-lg hover:shadow-2xl transition-shadow transform hover:scale-105 transition-transform">
-                Start Connecting
-              </button>
-              <button className="px-8 py-4 bg-white text-primary-600 rounded-full font-semibold text-lg border-2 border-primary-600 hover:bg-primary-50 transition-colors">
-                Learn More
-              </button>
+              <a
+                href="https://apps.apple.com/us/app/cloder/id6755250994"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-4 bg-gradient-primary text-white rounded-full font-semibold text-lg hover:shadow-2xl transform hover:scale-105 transition-all"
+              >
+                Download on iOS
+              </a>
             </motion.div>
 
             {/* Floating emoji animations */}
@@ -287,9 +289,14 @@ function Home() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-center mt-16"
           >
-            <button className="px-8 py-4 bg-gradient-primary text-white rounded-full font-semibold text-lg hover:shadow-2xl transition-shadow transform hover:scale-105 transition-transform">
-              Get Started Now
-            </button>
+            <a
+              href="https://apps.apple.com/us/app/cloder/id6755250994"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-8 py-4 bg-gradient-primary text-white rounded-full font-semibold text-lg hover:shadow-2xl transform hover:scale-105 transition-all"
+            >
+              Download on iOS
+            </a>
           </motion.div>
         </div>
       </section>
@@ -343,9 +350,14 @@ function Home() {
             <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
               Join Cloder today and start building meaningful friendships in your community.
             </p>
-            <button className="px-8 py-4 bg-white text-primary-600 rounded-full font-semibold text-lg hover:shadow-2xl transition-shadow transform hover:scale-105 transition-transform">
-              Download Cloder
-            </button>
+            <a
+              href="https://apps.apple.com/us/app/cloder/id6755250994"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-8 py-4 bg-white text-primary-600 rounded-full font-semibold text-lg hover:shadow-2xl transform hover:scale-105 transition-all"
+            >
+              Download on iOS
+            </a>
           </motion.div>
         </div>
       </section>

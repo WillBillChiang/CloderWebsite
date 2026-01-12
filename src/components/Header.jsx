@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
+import CloderIcon from '../assets/CloderIcon.png'
 
 function Header() {
   const [scrolled, setScrolled] = useState(false)
@@ -25,9 +26,7 @@ function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-primary rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xl">C</span>
-            </div>
+            <img src={CloderIcon} alt="Cloder" className="w-10 h-10 rounded-full" />
             <span className="text-2xl font-bold text-gradient">Cloder</span>
           </Link>
 
@@ -44,12 +43,14 @@ function Header() {
           </nav>
 
           <div className="flex items-center space-x-4">
-            <button className="hidden sm:block px-6 py-2 text-primary-600 font-semibold hover:text-primary-700 transition-colors">
-              Sign In
-            </button>
-            <button className="px-6 py-2 bg-gradient-primary text-white rounded-full font-semibold hover:shadow-lg transition-shadow">
-              Get Started
-            </button>
+            <a
+              href="https://apps.apple.com/us/app/cloder/id6755250994"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-2 bg-gradient-primary text-white rounded-full font-semibold hover:shadow-lg transition-shadow"
+            >
+              Download App
+            </a>
           </div>
         </div>
       </div>
